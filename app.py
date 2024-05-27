@@ -13,7 +13,7 @@ def chatbot():
 def generate_response(user_input):
     client = OpenAI(
         # This is the default and can be omitted
-        api_key='sk-proj-2DmMgCiB7JLmVGyzXIjkT3BlbkFJkrAfjg2CUhvcFZHMmzKA',
+        api_key='',
     )
 
     response = client.chat.completions.create(
